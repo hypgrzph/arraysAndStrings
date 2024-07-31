@@ -29,13 +29,13 @@ int main(){
         }
     //tao loop de so sanh dua va index 0
     //(i + 1) (i - 1);
-    //limit tuoi lon
+  
     for (int i = 0; i < size; i++){
         if (arr[i] == 0){
             x = ((i - 1) >= 0) ? arr[i - 1] :INT_MIN;
             y = ((i + 1) < size) ? arr[i + 1] : INT_MIN;
             std::cout << x << " " << y << "\n"; //debug
-            break;           
+              
             }
         }
         solution(x , y); //work main
