@@ -49,8 +49,8 @@ int main(){
     
     std::string str_1, str_2; //tao bien
     
-    str_1 = "chz";//ran
-    str_2 = "chanhdeptrai"; //ran
+    str_1 = "hello";//ran
+    str_2 = "hiworld"; //ran
     
     //tao arr de tach
     //thuc hien ham return
